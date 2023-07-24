@@ -1,0 +1,43 @@
+<clipitem id="clipitem-0">
+	<name>Title_00000</name>
+	<enabled>TRUE</enabled>
+	<rate>
+		<timebase>30</timebase>
+		<ntsc>TRUE</ntsc>
+	</rate>
+	<start>0</start>
+	<end>30</end>
+	<file id="file-0">
+		<name>Graphic</name>
+		<mediaSource>GraphicAndType</mediaSource>
+		<media>
+			<video>
+				<samplecharacteristics>
+					<width>1920</width>
+					<height>1080</height>
+					<anamorphic>FALSE</anamorphic>
+					<pixelaspectratio>square</pixelaspectratio>
+					<fielddominance>none</fielddominance>
+				</samplecharacteristics>
+			</video>
+		</media>
+	</file>
+	<filter>
+		<effect>
+			<name>Graphic</name>
+			<effectid>GraphicAndType</effectid>
+			<parameter>
+				<parameterid>1</parameterid>
+				<name>Source Text</name>
+				<hash>00000000-0000-0000-0000-000000000000</hash>
+				<value/>
+			</parameter>
+			<parameter>
+				<parameterid>3</parameterid>
+				<name>Position</name>
+				<IsTimeVarying>false</IsTimeVarying>
+				<value>-91445760000000000,0:0,0,0,0,0,0,0,5,4,0,0,0,0</value>
+			</parameter>
+		</effect>
+	</filter>
+</clipitem>

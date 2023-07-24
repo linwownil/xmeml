@@ -1,0 +1,47 @@
+<clipitem id="clipitem-0">
+	<name>Title_00000</name>
+	<enabled>TRUE</enabled>
+	<rate>
+		<timebase>30</timebase>
+		<ntsc>TRUE</ntsc>
+	</rate>
+	<start>0</start>
+	<end>30</end>
+	<file id="file-1">
+		<name>Title_00000</name>
+		<pathurl/>
+		<media>
+			<audio>
+				<samplecharacteristics>
+					<depth>16</depth>
+					<samplerate>48000</samplerate>
+				</samplecharacteristics>
+				<channelcount>1</channelcount>
+				<audiochannel>
+					<sourcechannel>1</sourcechannel>
+				</audiochannel>
+			</audio>
+		</media>
+	</file>
+	<sourcetrack>
+		<mediatype>audio</mediatype>
+		<trackindex>1</trackindex>
+	</sourcetrack>
+	<filter>
+		<effect>
+			<name>Audio Levels</name>
+			<effectid>audiolevels</effectid>
+			<effectcategory>audiolevels</effectcategory>
+			<effecttype>audiolevels</effecttype>
+			<mediatype>audio</mediatype>
+			<pproBypass>false</pproBypass>
+			<parameter>
+				<parameterid>level</parameterid>
+				<name>Level</name>
+				<valuemin>0</valuemin>
+				<valuemax>3.98109</valuemax>
+				<value>1</value>
+			</parameter>
+		</effect>
+	</filter>
+</clipitem>

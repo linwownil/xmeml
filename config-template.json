@@ -1,0 +1,28 @@
+{
+	"xml_template_path": "PATH OF TEMPLATE DIR RELATIVE TO CODE DIR",
+	"project_path": "ABSOLUTE PATH",
+	"tasks": [
+		{
+			"_sequence": {
+				"file": "TEMPLATE SEQUENCE FILE + EXTENSION",
+				"fps": 29.97
+			},
+			"subtitle": {
+				"_clipitem": "TEMPLATE CLIPITEM FILE FOR SUBTITLE + EXTENSION",
+				"t_value": "TEMPLATE SUBTITLE VALUE",
+				"t_position": [0, 0],
+				"srt": "SRT FILE + EXTENSION",
+				"non_ascii": {
+					"activate": false,
+					"encoding": "ENCODING"
+				}
+			},
+			"audio": {
+				"_clipitem": "TEMPLATE CLIPITEM FILE FOR AUDIO + EXTENSION",
+				"file": "AUDIO FILE + EXTENSION",
+				"level": 0
+			},
+			"output": "OUTPUT FILE + EXTENSION"	
+		}
+	]
+}
